@@ -1,0 +1,69 @@
+
+
+	import java.util.Calendar;
+	import java.util.GregorianCalendar;
+
+	public class Time {
+	private int second;
+	private int minute;
+	private int hour;
+
+	public Time (int hour, int minute, int second) {
+	this.second = second;
+	this.minute = minute;
+	this.hour = hour;
+	}
+	public int getHour () {
+		return hour;
+	}
+	public int getminute () {
+		return minute;
+	}
+	public int getSecond () {
+		return second;
+	}
+	public void setHour () {
+		System.out.println("Horas: " + hour);
+	}
+	public void setMinute () {
+		int mes = minute;
+		System.out.println("Minutos: " + mes);
+	}
+	public void setSecond () {
+		int año = second;
+		System.out.println("Segundos: " + año);
+	}
+	public void setTime() {
+		int h = hour;
+		int m = minute;
+		int s = second;
+		System.out.println("La mostrada es: (" +
+			h + ":" + m + ":" + s + ")");
+	}
+	public int segundo;
+	public void systemSecond () {
+		Calendar systemSecond = new GregorianCalendar();
+		segundo = systemSecond.get(Calendar.SECOND);
+		System.out.println("Los segundos del sistema son: " + segundo);
+			
+	}
+	public int minuto;
+	public void systemMinute (){
+		Calendar systemMinute = new GregorianCalendar();
+		minuto = systemMinute.get(Calendar.MINUTE);
+		System.out.println("Los minutos del sistema son: " + minuto);	
+	}
+	public int hora;
+	public void systemHour (){
+		Calendar systemHour = new GregorianCalendar();
+		hora = systemHour.get(Calendar.HOUR_OF_DAY);
+		System.out.println("La hora del sitema es: "+ hora);
+	}
+	public void SystemTime () {
+		System.out.println("LA HORA DEL SISTEMA ES: " 
+		+ hora + ":" + minuto + ":" + segundo);
+		}	
+	}
+
+
+
