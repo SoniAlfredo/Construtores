@@ -1,0 +1,63 @@
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class Date {
+private int year;
+private int month;
+private int day;
+
+public Date (int year, int month, int day) {
+this.year = year;
+this.month = month;
+this.day = day;
+}
+public int getYear () {
+	return year;
+}
+public int getmonth () {
+	return month;
+}
+public int getDay () {
+	return day;
+}
+public void setYear () {
+	int año = year;
+	System.out.println("El año es: " + año);
+}
+public void setMonth () {
+	int mes = month;
+	System.out.println("El mes es: " + mes);
+}
+public void setDay () {
+	System.out.println("El año es: " + day);
+}
+public void setDate() {
+	int y = year;
+	int m = month;
+	int d = day;
+	System.out.println("La fecha con formato correcto es: (" +
+		d + "/" + m + "/" + y + ")");
+}
+public int añ;
+public void systemYear () {
+	Calendar systemYear = new GregorianCalendar();
+	añ = systemYear.get(Calendar.YEAR);
+	System.out.println("El año es: " + añ);
+		
+}
+public int me;
+public void systemMonth (){
+	Calendar systemMonth = new GregorianCalendar();
+	me = systemMonth.get(Calendar.MONTH);
+	System.out.println("El mes es: " + me);	
+}
+public int di;
+public void systemDay (){
+	Calendar systemDay = new GregorianCalendar();
+	di = systemDay.get(Calendar.DAY_OF_MONTH);
+	System.out.println("El dia es: "+ di);
+}
+public void SystemDate () {
+	System.out.println("LA FECHA DEL SISTEMA ES: " 
+	+ di + "/" + me + "/" + añ);
+	}	
