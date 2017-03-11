@@ -1,0 +1,57 @@
+
+public class Principal {
+	public static void  main(String []arg){
+		Date date1 = new Date(2000,8,29);
+		Date date2 = new Date(1988,3,6);
+		Date date3 = new Date(1988,7,25);
+		Date date4 = new Date(2006,5,4);
+		Date date5 = new Date(2008,7,16);
+	    
+		System.out.println("La fecha almacenada es: (" + date1.getYear() +
+	    		"/" + date1.getmonth() + "/" + date1.getDay() + ")");
+		date1.setYear();
+		date1.setMonth();
+		date1.setDay();
+		date1.setDate();
+		System.out.println("");
+		
+		System.out.println("La fecha almacenada es: (" + date2.getYear() +
+	    		"/" + date2.getmonth() + "/" + date2.getDay() + ")");
+		date2.setYear();
+		date2.setMonth();
+		date2.setDay();
+		date2.setDate();
+		System.out.println("");
+		
+		System.out.println("La fecha almacenada es: (" + date3.getYear() +
+	    		"/" + date3.getmonth() + "/" + date3.getDay() + ")");
+		date3.setYear();
+		date3.setMonth();
+		date3.setDay();
+		date3.setDate();
+		System.out.println("");
+		
+		
+		System.out.println("La fecha almacenada es: (" + date4.getYear() +
+	    		"/" + date4.getmonth() + "/" + date4.getDay() + ")");
+		date4.setYear();
+		date4.setMonth();
+		date4.setDay();
+		date4.setDate();
+		System.out.println("");
+		
+		System.out.println("La fecha almacenada es: (" + date5.getYear() +
+	    		"/" + date5.getmonth() + "/" + date5.getDay() + ")");
+		date5.setYear();
+		date5.setMonth();
+		date5.setDay();
+		date5.setDate();
+		System.out.println("");
+		
+		date5.systemDay();
+		date5.systemMonth();
+		date5.systemYear();
+		date5.SystemDate();
+				
+	}
+}
