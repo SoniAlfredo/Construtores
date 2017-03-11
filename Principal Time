@@ -1,0 +1,57 @@
+public class Principal {
+	public static void  main(String []arg){
+		Time time1 = new Time(14,50,29);
+		Time time2 = new Time(18,30,29);
+		Time time3 = new Time(19,17,25);
+		Time time4 = new Time(12,15,45);
+		Time time5 = new Time(9,7,16);
+	    
+		System.out.println("La hora almacenada es: (" + time1.getHour() +
+	    		":" + time1.getminute() + ":" + time1.getSecond() + ")");
+		time1.setHour();
+		time1.setMinute();
+		time1.setSecond();
+		time1.setTime();
+		System.out.println("");
+		
+		System.out.println("La hora almacenada es: (" + time2.getHour() +
+	    		":" + time2.getminute() + ":" + time2.getSecond() + ")");
+		time2.setHour();
+		time2.setMinute();
+		time2.setSecond();
+		time2.setTime();
+		System.out.println("");
+		
+		System.out.println("La hora almacenada es: (" + time3.getHour() +
+	    		":" + time3.getminute() + ":" + time3.getSecond() + ")");
+		time3.setHour();
+		time3.setMinute();
+		time3.setSecond();
+		time3.setTime();
+		System.out.println("");
+		
+		
+		System.out.println("La fecha almacenada es: (" + time4.getHour() +
+	    		":" + time4.getminute() + ":" + time4.getSecond() + ")");
+		time4.setHour();
+		time4.setMinute();
+		time4.setSecond();
+		time4.setTime();
+		System.out.println("");
+		
+		System.out.println("La fecha almacenada es: (" + time5.getHour() +
+	    		":" + time5.getminute() + ":" + time5.getSecond() + ")");
+		time5.setHour();
+		time5.setMinute();
+		time5.setSecond();
+		time5.setTime();
+		System.out.println("");
+		
+		time5.systemHour();
+		time5.systemMinute();
+		time5.systemSecond();
+		time5.SystemTime();
+				
+	}
+}
+
