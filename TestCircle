@@ -1,0 +1,24 @@
+public class TestCircle {
+	public static void main(String [] args) {
+		
+		Circle c1 = new Circle(70,"Blue");
+		
+		System.out.println("El circulo (" + c1.getColor() + ") tiene un radio de: ("
+				+ c1.getRadius() + ") y área de: (" + c1.getArea() + ")");
+		
+		Circle c2 = new Circle(2.0,"Red");
+		
+		System.out.println("El circulo (" + c2.getColor() +") tiene un radio de: ("
+				+ c2.getRadius() + ") y área de (" + c2.getArea() + ")");
+
+		Circle c3 = new Circle(6.0,"White");
+		
+		System.out.println("El circulo (" + c3.getColor() +") tiene un radio de: ("
+				+ c3.getRadius() + ") y área de (" + c3.getArea() + ")");
+
+		Circle c4 = new Circle(10.0,"Yellow");
+		
+		System.out.println("El circulo (" + c4.getColor() +") tiene un radio de: ("
+				+ c4.getRadius() + ") y área de (" + c4.getArea() + ")");
+	}
+}
